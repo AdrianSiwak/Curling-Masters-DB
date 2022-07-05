@@ -1,0 +1,1197 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -48.66666666666696,
+    "scrollLeft": -354.6666666666667,
+    "zoomLevel": 0.9,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "curling_masters",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Finanse",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e932ee95-42d2-4251-ad12-6b160489a3af"
+          },
+          {
+            "name": "data",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2c7ce1d0-5a1e-4208-bf8e-7a1fb814c9d3"
+          },
+          {
+            "name": "kwota",
+            "comment": "",
+            "dataType": "DECIMAL(13, 2)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 97.36083984375,
+              "widthDefault": 60
+            },
+            "id": "440551b2-3312-4fa4-bb8e-a8bd97fa04ca"
+          },
+          {
+            "name": "typ_podmiotu",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 80.05078125,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "57696c4b-52bc-4d70-b2fe-e419672b94d9"
+          },
+          {
+            "name": "ID_podmiotu",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 75.708984375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fca91321-08ba-4b93-8624-15198505cdff"
+          },
+          {
+            "name": "ID_podmiotu",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 75.708984375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1d3c4250-5fe6-419c-98aa-c0e970111931"
+          },
+          {
+            "name": "ID_podmiotu",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 75.708984375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1fb6b739-3f1b-4c5f-8c70-eae04f48ec4e"
+          },
+          {
+            "name": "uwagi",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "bc57f524-0452-4609-82cc-cfa3417c5a1a"
+          },
+          {
+            "name": "ilosc",
+            "comment": "",
+            "dataType": "TINYINT(4)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 68.44091796875,
+              "widthDefault": 60
+            },
+            "id": "b773e212-5dd3-4494-8df8-4816f7c65a81"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 26,
+          "top": 16,
+          "zIndex": 4,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "c9872b5c-37d9-4775-939f-c473f5896dc7"
+      },
+      {
+        "name": "Mecze",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": true,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a30890e9-58e8-45be-afc5-10a1ca33c8c2"
+          },
+          {
+            "name": "rezultat",
+            "comment": "",
+            "dataType": "ENUM",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "444a3833-7373-4dd3-a83d-9cbc7e7256c1"
+          },
+          {
+            "name": "Wynik_naszej_drużyny",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 134.8310546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d116ea99-3f0c-401b-964b-e9bd89e65ced"
+          },
+          {
+            "name": "Wynik_drużyny_przeciwnej",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 158.66650390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3f4c8948-ec7a-4d9c-ad0b-f8b7a5d3af44"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 554,
+          "top": 34,
+          "zIndex": 6,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0956a128-53e4-46fb-9188-5819c27c8153"
+      },
+      {
+        "name": "Pracownicy",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c2508818-8d81-4301-8969-8d2d0ae00b79"
+          },
+          {
+            "name": "imie",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "0723e52b-c613-4441-af4d-5d7ff23a0575"
+          },
+          {
+            "name": "nazwisko",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "b57d8023-3b3e-4e2e-96ba-fc8ad2c557f3"
+          },
+          {
+            "name": "stanowisko",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 66.30810546875,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "2f469898-5e19-487e-b4a8-7686b8710916"
+          },
+          {
+            "name": "data_zatrudnienia",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 105.35888671875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aa917be7-8990-4416-a345-4c697a0cf57f"
+          },
+          {
+            "name": "data_odejscia",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 82.22802734375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "48ed920c-8278-482c-bd98-b18910f899d0"
+          },
+          {
+            "name": "pensja",
+            "comment": "",
+            "dataType": "INT(4)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9dc04e56-d1d0-4d2f-ad67-ee029e689901"
+          },
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3063a488-fd63-4e12-9c7c-c1e58f32560f"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 19.2,
+          "top": 481.6,
+          "zIndex": 3,
+          "widthName": 68.46630859375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "8b60076e-3d2d-478f-b75c-6626a716b08e"
+      },
+      {
+        "name": "Sprzet",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "91ff1bde-92bf-485c-a82a-9a5ab9126f5f"
+          },
+          {
+            "name": "typ_sprzetu",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 69.20263671875,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "7d0eed54-5178-4182-8795-2c73772560e8"
+          },
+          {
+            "name": "ilosc",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fe10467d-4801-4995-8074-68be1d3eead4"
+          },
+          {
+            "name": "ilosc_uszkodzonych_lub_zutylizowanych",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 236.8505859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "00d431b0-0d26-4529-8077-148ea7ff45fe"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 549.2,
+          "top": 468.4,
+          "zIndex": 1,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "6b5472f0-866c-47c6-ac7b-a5fac7532a9d"
+      },
+      {
+        "name": "Terminarz",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fc9906a4-3cb3-4af4-a053-1319d6c011bd"
+          },
+          {
+            "name": "data",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "84f9c698-90ef-448c-aeac-ca44036398ed"
+          },
+          {
+            "name": "przeciwnik",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.68359375,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "bd8d9086-2647-4609-9f0a-df95f8f6198f"
+          },
+          {
+            "name": "Miejsce_rozegrania_meczu",
+            "comment": "",
+            "dataType": "ENUM",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 160.24072265625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "837fb496-fab4-49d3-89d6-0756af594905"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1198.4,
+          "top": 20.8,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "35f0189c-685c-4df9-a5c2-7d5462d0e170"
+      },
+      {
+        "name": "Zawodnicy",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "73dcfae1-5fe5-4fdd-a5f8-99c3fa57168f"
+          },
+          {
+            "name": "imie",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "c61515e6-0697-44de-97ea-ddebe4ff5ccf"
+          },
+          {
+            "name": "nazwisko",
+            "comment": "",
+            "dataType": "VARCHAR(40)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "14fc5983-b469-4235-8e98-f228cc0a819a"
+          },
+          {
+            "name": "numer_na_koszulce",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 118.34619140625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "41fe2a46-1613-4288-87e5-58825bf43628"
+          },
+          {
+            "name": "data_dolaczenia",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 96.68798828125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c16add9c-141e-4ead-9410-4f3a3b6d3522"
+          },
+          {
+            "name": "data_odejscia",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 82.22802734375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c48f58a9-3318-45a1-8e18-61eea67e91a4"
+          },
+          {
+            "name": "plec",
+            "comment": "",
+            "dataType": "ENUM",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3fb59239-df7d-475a-b830-8960221dea1c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 594.8,
+          "top": 240.4002,
+          "zIndex": 5,
+          "widthName": 64.13720703125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "c3f8036f-2283-4a11-b15f-5dcbed24a698"
+      },
+      {
+        "name": "Zawodnicy_Mecze",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_meczu",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": true,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b618e772-52ec-4044-b512-7c64ffe2c73d"
+          },
+          {
+            "name": "id_zawodnika",
+            "comment": "",
+            "dataType": "INT(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": true,
+              "widthName": 80.7744140625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7c881023-ca06-4d48-a8e7-4edcbaca7ed5"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1201.5263,
+          "top": 211.1262,
+          "zIndex": 7,
+          "widthName": 109.65625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "818c7e61-0e5e-473c-86d7-d996c22e56ab"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": true,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "35f0189c-685c-4df9-a5c2-7d5462d0e170",
+          "columnIds": [
+            "fc9906a4-3cb3-4af4-a053-1319d6c011bd"
+          ],
+          "x": 1198.4,
+          "y": 96.3,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "0956a128-53e4-46fb-9188-5819c27c8153",
+          "columnIds": [
+            "a30890e9-58e8-45be-afc5-10a1ca33c8c2"
+          ],
+          "x": 999.66650390625,
+          "y": 71.75,
+          "direction": "right"
+        },
+        "constraintName": "fk_terminarz_to_mecze",
+        "visible": true,
+        "id": "7b775f9b-618b-4a9c-b28b-eb453907e13f"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
+        "start": {
+          "tableId": "8b60076e-3d2d-478f-b75c-6626a716b08e",
+          "columnIds": [
+            "c2508818-8d81-4301-8969-8d2d0ae00b79"
+          ],
+          "x": 229.238818359375,
+          "y": 481.6,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "c9872b5c-37d9-4775-939f-c473f5896dc7",
+          "columnIds": [
+            "fca91321-08ba-4b93-8624-15198505cdff"
+          ],
+          "x": 228.205810546875,
+          "y": 269.5,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_pracownicy_to_finanse",
+        "visible": true,
+        "id": "5d08c108-04b1-4e3c-86ef-d1584ee20694"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
+        "start": {
+          "tableId": "6b5472f0-866c-47c6-ac7b-a5fac7532a9d",
+          "columnIds": [
+            "91ff1bde-92bf-485c-a82a-9a5ab9126f5f"
+          ],
+          "x": 549.2,
+          "y": 543.9,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "c9872b5c-37d9-4775-939f-c473f5896dc7",
+          "columnIds": [
+            "1d3c4250-5fe6-419c-98aa-c0e970111931"
+          ],
+          "x": 430.41162109375,
+          "y": 206.125,
+          "direction": "right"
+        },
+        "constraintName": "fk_sprzet_to_finanse",
+        "visible": true,
+        "id": "21c64cb3-4712-43a0-8c9e-fffe462f30f9"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Ring",
+        "start": {
+          "tableId": "0956a128-53e4-46fb-9188-5819c27c8153",
+          "columnIds": [
+            "a30890e9-58e8-45be-afc5-10a1ca33c8c2"
+          ],
+          "x": 554,
+          "y": 109.5,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "c9872b5c-37d9-4775-939f-c473f5896dc7",
+          "columnIds": [
+            "1fb6b739-3f1b-4c5f-8c70-eae04f48ec4e"
+          ],
+          "x": 430.41162109375,
+          "y": 79.375,
+          "direction": "right"
+        },
+        "constraintName": "fk_mecze_to_finanse",
+        "visible": true,
+        "id": "d68f2fe6-fddc-4e9c-81ad-4c428c6405d5"
+      },
+      {
+        "identification": true,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "c3f8036f-2283-4a11-b15f-5dcbed24a698",
+          "columnIds": [
+            "73dcfae1-5fe5-4fdd-a5f8-99c3fa57168f"
+          ],
+          "x": 1027.86494140625,
+          "y": 346.65020000000004,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "818c7e61-0e5e-473c-86d7-d996c22e56ab",
+          "columnIds": [
+            "7c881023-ca06-4d48-a8e7-4edcbaca7ed5"
+          ],
+          "x": 1201.5263,
+          "y": 238.6262,
+          "direction": "left"
+        },
+        "constraintName": "fk_zawodnicy_to_zawodnicy_mecze",
+        "visible": true,
+        "id": "6168a2da-cbe8-4c86-8c73-a2e1fb0cc595"
+      },
+      {
+        "identification": true,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "0956a128-53e4-46fb-9188-5819c27c8153",
+          "columnIds": [
+            "a30890e9-58e8-45be-afc5-10a1ca33c8c2"
+          ],
+          "x": 999.66650390625,
+          "y": 147.25,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "818c7e61-0e5e-473c-86d7-d996c22e56ab",
+          "columnIds": [
+            "b618e772-52ec-4044-b512-7c64ffe2c73d"
+          ],
+          "x": 1201.5263,
+          "y": 293.62620000000004,
+          "direction": "left"
+        },
+        "constraintName": "fk_mecze_to_zawodnicy_mecze",
+        "visible": true,
+        "id": "df772d16-b566-4b7e-8470-7b904fff3f08"
+      }
+    ]
+  }
+}
